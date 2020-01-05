@@ -1,0 +1,38 @@
+.body_continer_inpuit {
+    background-image: url("../img/background.jpg");
+
+    background-size: 100% 100%;
+    min-height: 100vh;
+
+
+
+
+
+
+}
+.body_continer_inpuit .container{
+    opacity: 1;
+}
+    /*text modify header side*/
+.form_start h1,h2,h4{
+    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    
+}
+.form-control{
+    border-radius: 0;
+    line-height: 3px;
+}
+select ,input,option{
+    opacity: .7;
+
+}
+
+select:hover,input:hover,option:hover{
+    opacity: .9;
+
+}
+
+

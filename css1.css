@@ -1,0 +1,97 @@
+.margin5{
+    margin-top:10px;
+    margin-bottom: -20px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.top-nav li{
+    display: inline;
+    list-style-type: none;
+    padding:0 5px;
+    /*border-left:1px solid green ;*/
+}
+.logo{
+    font-family: 'Jim Nightshade';
+    font-size: 35px;
+    opacity: .5;
+    font-weight:bold;
+}
+
+.header_end {
+    background-image: url('image/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 55%;
+
+    color: #fff;
+    /*text-align: center;*/
+    margin-top: -20px;
+    /*min-width: 740px;*/
+}
+.header_tagline {
+    /*font-family: Futura, Verdana, Sans-Serif;*/
+    /*font-variant: small-caps;*/
+    font-family: Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    letter-spacing: 0px;
+    padding-top: 0px;
+    padding-bottom: 9px;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1.00);
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+
+}
+.header_info{
+    margin-left: 300px;
+}
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.nutrition{
+    background-image: url('image/HD.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.info_div{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 2px;
+}#overflow{
+
+
+}
+ .main_wrap_suggested #overflow{
+     max-height: 600px;
+
+     overflow: scroll;
+ }
+.full-screen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.modal-content {
+    height: 100%;
+    min-height: 100%;
+    height: auto;
+    border-radius: 0;
+}
+#width_height{
+    min-height: 390px;
+    max-height: 390px;
+    overflow: scroll;
+}
